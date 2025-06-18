@@ -3,7 +3,7 @@ from xgboost import XGBRegressor
 from flask import Flask, request, jsonify
 import joblib
 
-# Step 1: Load and Preprocess the Data
+# Load and Preprocess the Data
 def load_and_preprocess_data():
     # Load datasets
     data_aapl = pd.read_csv("Download Data - STOCK_US_XNAS_AAPL.csv")
@@ -36,7 +36,7 @@ def load_and_preprocess_data():
 
     return X, y
 
-# Step 2: Train and Save the Model
+# Training and Save the Model
 def train_and_save_model(X, y):
     # Train the best model
     best_model = XGBRegressor(
