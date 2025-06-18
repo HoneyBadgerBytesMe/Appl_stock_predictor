@@ -61,11 +61,3 @@ This project demonstrates an end-to-end ML system built locally—from data inge
 - **Serialization:** joblib  
 - **HTTP:** requests  
 
----
-
-## Installation & Setup
-
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/your-username/aapl-predictor.git
-   cd aapl-predictor
